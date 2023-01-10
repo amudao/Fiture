@@ -1,0 +1,15 @@
+@import url('css/ionicons.min.css');
+
+@import url('css/style.css');
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900');
+
+@import url('css/style.css');
+
+.list-unstyled{
+  box-shadow: none;
+}
+.footer-06{
+  margin-top: 5% !important;
+}

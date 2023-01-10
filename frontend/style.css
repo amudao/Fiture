@@ -1,0 +1,135 @@
+form {
+    background-color: white;
+    width: 38%;;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: #f14719;
+    padding-top: 5%;
+    font-size: 150%;
+}
+
+input {
+   width:70% !important;
+   margin: 0 auto !important;
+   padding-left: 40px !important;
+}
+
+i {
+    color: #f14719;
+    margin-left: 17%;
+    margin-top: -4%;
+    position: absolute;
+    font-size: 17px;
+}
+
+#hidepass,#viewpass {
+    color: #f14719;
+    margin-left: 77%;
+    margin-top: -3.75%;
+    position: absolute;
+    font-size: 17px;
+}
+
+#viewpass {
+    display: none;
+}
+
+#signInButton {
+    width:70% !important;
+    margin-left: 15% !important;
+    margin-bottom: 9% !important;
+    border-radius: 0px !important;
+    background-color: #f14719 !important;
+    border: none !important; 
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+
+body {
+    background-color: #f14719;
+}
+
+button {
+    width:70% !important;
+    margin-left: 15% !important;
+    margin-bottom: 9% !important;
+    border-radius: 0px !important;
+    background-color: #f14719 !important;
+    border: none !important; 
+}
+
+a, p {
+    display: block;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+#logo{
+    width: 30%;
+}
+
+@media only screen and (max-width: 1152px) {
+    i,#viewpass,#hidepass {
+        margin-top: -6.5%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    form{
+        width: 43%;
+    }
+}
+
+@media only screen and (max-width: 892px) {
+    form{
+        width: 53%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    form{
+        width: 100%;
+    }
+    #viewpass,#hidepass {
+        margin-top: -10%;
+    }
+}
+
+
+@media only screen and (max-width: 414px) {
+    form{
+        width: 100%;
+    }
+    #viewpass,#hidepass {
+        margin-left: 74%;
+    }
+}
+
+
+@media only screen and (max-width: 558px) {
+    form{
+        width: 100%;
+    }
+    i,#viewpass,#hidepass {
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    form{
+        width: 100%;
+    }
+    i,#viewpass,#hidepass {
+        margin-top: -7%;
+    }
+}
+
+#logo{
+    width: 30%;
+}

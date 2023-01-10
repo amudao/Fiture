@@ -1,0 +1,1 @@
+<?php redirect('frontend/news.html') ?>

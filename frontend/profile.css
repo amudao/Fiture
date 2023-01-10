@@ -1,0 +1,244 @@
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-brand {
+    padding-left: 1% !important;
+    width: 20%;
+    font-size: 40px;
+    z-index: 2;
+}
+
+.navbar-brand>img {
+    width: 110%;
+    margin-left: -30px;
+}
+
+.nav-link {
+    font-size: 23px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font: bold;
+
+}
+#profile{
+        border-bottom: 3px solid #f14719;
+    
+}
+
+.nav-item>button {
+    background-color: #f14719;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 5px;
+    font-size: 90%;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.navbar-nav {
+
+    margin-left: 50%;
+
+}
+
+body{
+    background-color: #d5d4d6;
+}
+
+/* #sliderdiv{
+    width: 100%;
+    height: 70vh;
+    background-color:rgb(8, 6, 6);
+}
+#sliderdiv>img{
+    width: 100%;
+    height: 100%;
+   opacity: 0.7;
+} */
+
+
+#dpdiv{
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+   margin-top: 3%;
+    
+}
+
+#profilepic{
+    width:160px;
+    height: 160px;
+    background-color: #f14719;
+    border-radius: 80px;
+    background-image: url('images/dp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 10px 2px grey;
+    margin-left: 28%;
+   margin-top: -9%;
+}
+#profilepic+h5{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Rubik';
+}
+
+h2{
+    font-family: 'Oswald';
+    text-align: center;
+    margin-top: 2%;
+}
+
+#fpc{
+    margin-left: 17%;
+    display: flex;
+}
+#fpc>div{
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 6%;
+}
+
+#logo {
+    /*font-family: 'Akaya Telivigala';*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+#logo, i {
+    color: black;
+}
+
+
+#inputEmail4,#inputPassword4,#inputAddress,#inputAddress2,#inputCity,#inputState{
+    width: 60% !important;
+}
+form{
+    height: 500px !important;
+    background-color:white; 
+    border-radius: 15px;
+    margin-top: 5%;
+}
+#emailhead{
+    margin-left: 10% !important;
+    padding-top: 4% !important;
+}
+#addresshead,#address2head{
+    margin-left: 5% !important;
+}
+#cityhead{
+    margin-left: 11% !important;
+}
+#inputEmail4,#inputPassword4{
+    width: 80% !important;
+}
+#inputEmail4{
+    margin-left: 10% !important;
+}
+#inputAddress,#inputAddress2{
+    margin-left: 5% !important;
+    width: 90% !important;
+}
+#inputCity{
+    margin-left: 11% !important;
+    width: 80% !important;
+}
+#inputPassword4{
+    margin-left: 0% !important;
+}
+#inputZip{
+    width: 100% !important;
+}
+.btn{
+    background-color: #13ae49;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 5px;
+    font-size: 90%;
+    margin-left: 5% !important;
+}
+
+
+
+#footerdiv{
+    margin-top: 10%;
+    width: 120% !important;
+    margin-left: -10% !important;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .navbar-nav {
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .navbar-nav {
+        margin-left: 2%;
+    }
+
+    #navbarNav {
+        position: fixed;
+        margin-top: 78% !important;
+        background-color: white !important;
+        width: 100% !important;
+        z-index: 3;
+        margin-left: -3.6% !important;
+    }
+}
+
+
+
+@media only screen and (max-width:375px) {
+    .navbar-nav {
+        margin-left: 2%;
+    }
+
+    #navbarNav {
+        position: fixed;
+        margin-top: 88% !important;
+        background-color: white !important;
+        width: 100% !important;
+        z-index: 3;
+        margin-left: -4.5% !important;
+    }
+}
+
+
+
+@media only screen and (max-width:320px) {
+    .navbar-nav {
+        margin-left: 2%;
+    }
+
+    #navbarNav {
+        position: fixed;
+        margin-top: 100% !important;
+        background-color: white !important;
+        width: 100% !important;
+        z-index: 3;
+        margin-left: -5% !important;
+    }
+    #main1{
+        flex-direction: column;
+    }
+
+    #dpdiv{
+        margin-left: 5%;
+        width: 140%;
+    }
+  
+}
